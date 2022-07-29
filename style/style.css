@@ -10,7 +10,7 @@ body{
 
 h1{
   text-align: center;
-  margin-top: 90px;
+  margin-top: 55px;
   color: #000000;
 }
 
@@ -20,25 +20,21 @@ h1{
 
 }
 
-.inputs-wrapper{
-    margin-top: 40px;
-}
-
-.contact-form{
+.contact_form{
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
 
 }
 
-.contact-form input {
+.contact_form input {
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 10px;
     border: 4px solid transparent;
 }
 
-.btn-add{
+.btn_add{
     padding: 15px;
     color: aliceblue;
     background-color: #1fc00c;
@@ -52,17 +48,67 @@ h1{
     border-radius: 10px;
     border: 4px solid transparent;
 }
+.search_contact{
+    margin-bottom: 30px;
+}
 
-.btn-del{
+.btn_clear{
     padding: 15px;
     border-radius: 10px;
     border: 4px solid transparent;
     color: aliceblue;
-    background-color: #ea4d4d;
+    background-color: #3852f1;
 }
 
-.select-search {
+.search_select {
     padding: 15px;
+    border-radius: 10px;
+    border: 4px solid transparent;
+}
+
+.about_contact_form{
+    background-color: white  ;
+    border-radius: 10px;
+    border: 4px solid transparent;
+}
+
+.about_contact_form fieldset{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about_contact_btns{
+    margin: 5px auto;
+}
+
+.about_contact_btns button{
+
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    color: aliceblue;
+    background-color: #3852f1;
+}
+
+.about_contact_btns .about_contact_remove{
+    background-color: #dc0606;
+}
+
+ .about_contact_name{
+    margin-top: 15px;
+
+}
+
+
+
+label{
+    margin: 7px ;
+
+}
+.about_contact_form input{
+    margin-bottom: 15px;
+    padding: 10px;
     border-radius: 10px;
     border: 4px solid transparent;
 }
